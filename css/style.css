@@ -2,6 +2,56 @@
   padding: 0;
   margin: 0;
   font-family: "Montserrat", sans-serif;
+
   font-size: 15px;
-  font-weight: 400;
+  font-weight: 500;
+}
+/* header  */
+
+.contactbar {
+  padding: 10px 20px;
+  text-transform: capitalize;
+  background-color: #0d369f;
+}
+.contactbar a {
+  transition: all 0.5s;
+  color: white !important;
+}
+
+.contactbar a:hover {
+  color: #ff6e65 !important;
+}
+
+.contactbar__left li {
+  margin-right: 10px;
+}
+
+.contactbar__right a {
+  margin-right: 20px;
+}
+
+.logo img {
+  margin-right: 10px;
+}
+.logo {
+  font-size: 1.5rem !important;
+}
+
+.nav__search input {
+  padding: 10px 0px 10px 10px;
+  border-top-left-radius: 30px;
+  border-bottom-left-radius: 30px;
+  border-right: none;
+}
+.nav__search button {
+  padding: 10px 15px;
+  border-left: none;
+  background-color: white;
+  border-top-right-radius: 30px;
+  border-bottom-right-radius: 30px;
+}
+
+.navbar-toggler {
+  background-color: #0d369f;
+  color: white;
 }
