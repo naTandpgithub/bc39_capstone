@@ -6,6 +6,10 @@
   font-size: 15px;
   font-weight: 500;
 }
+body {
+  background-color: #161c2d;
+}
+
 /* header  */
 
 .contactbar {
@@ -44,7 +48,7 @@
   display: flex !important;
   justify-content: space-between !important;
   z-index: 1000;
-  background-color: white;
+  background-color: #161c2d;
   width: 100%;
 
   transition: all 0.5s;
@@ -54,17 +58,17 @@
   padding: 10px 0px 10px 10px;
   border-top-left-radius: 30px;
   border-bottom-left-radius: 30px;
-  border-right: hidden;
-  border: 1px solid rgba(175, 170, 170, 0.4);
+  border-right-style: hidden !important;
+  border: 2px solid white;
   background: transparent;
 }
 .nav__search button {
   padding: 10px 15px;
 
-  background-color: white;
+  background-color: #161c2d;
   border-top-right-radius: 30px;
   border-bottom-right-radius: 30px;
-  border: 1px solid rgba(175, 170, 170, 0.4);
+  border: 2px solid white;
   border-left: hidden;
   color: #0d369f;
   transition: all 0.5s;
@@ -89,7 +93,7 @@
 }
 
 .collapse__navbar a {
-  color: black;
+  color: white;
   transition: all 0.5s;
   font-weight: 700;
   margin-right: 10px;
@@ -105,6 +109,11 @@
 .dropdown-menu {
   position: absolute;
   border: 1px solid transparent;
+  background-color: #161c2d;
+}
+.dropdown-item:focus,
+.dropdown-item:hover {
+  background-color: transparent;
 }
 
 .dropdown-toggle::after {
@@ -254,10 +263,15 @@
   margin-bottom: 40px;
   position: relative;
 }
+.title h2 {
+  color: white;
+  font-size: 40px !important;
+}
+
 .title h2::before,
 h2::after {
   content: "";
-  background-color: black;
+  background-color: white;
   width: 60px;
   height: 1.5px;
   position: absolute;
@@ -272,7 +286,7 @@ h2::after {
   bottom: -26px;
 }
 .title span {
-  font-size: 3.5rem;
+  font-size: 40px;
   color: #ff4f81;
 }
 .title h2 {
@@ -314,7 +328,7 @@ h2::after {
 /* funtion product  */
 
 #product {
-  background-color: #f8f9ff;
+  background-color: #161c2d;
   padding-bottom: 50px;
 }
 #product .container {
@@ -379,8 +393,12 @@ h2::after {
 }
 .card__body a {
   font-size: 1.2rem;
-  color: black;
+  color: white;
   transition: all 0.5s;
+}
+
+.card__body hr {
+  background-color: rgb(173 171 171 / 43%);
 }
 
 .card__body a:hover {
@@ -389,6 +407,7 @@ h2::after {
 
 .card__body p {
   padding-bottom: 30px;
+  color: rgb(173, 171, 171);
 }
 
 .card__level,
@@ -413,8 +432,10 @@ h2::after {
 
 .product__card {
   border-radius: 15px;
-  background-color: white;
+  background-color: #161c2d;
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.01);
+  color: white;
+  border: 1px solid rgba(255, 255, 255, 0.412);
   transition: all 0.5s;
 }
 .product__card:hover {
@@ -436,7 +457,7 @@ h2::after {
 /* class  */
 #class {
   padding: 100px 0;
-  background-image: url(../img/bg3.jpg);
+  background-image: url(./../img/bg3.jpg);
   background-size: cover;
   background-position: bottom;
   background-repeat: none;
