@@ -37,6 +37,17 @@
   font-size: 1.5rem !important;
 }
 
+.fix_ontop {
+  /* position: fixed;
+  top: 0;
+  left: 0;
+  display: flex !important;
+  justify-content: space-between !important;
+  z-index: 1000;
+  background-color: white;
+  width: 100%; */
+}
+
 .sticky {
   position: fixed;
   top: 0;
@@ -46,8 +57,7 @@
   z-index: 1000;
   background-color: white;
   width: 100%;
-
-  transition: all 0.5s;
+  height: 60px;
 }
 
 .nav__search input {
@@ -217,6 +227,17 @@
 }
 .card__item4 {
   background-color: #1ee697;
+}
+
+.card__item2 i {
+  transform: skewX(-10deg);
+}
+
+.card__item1,
+.card__item2,
+.card__item3,
+.card__item4 {
+  padding: 25px !important;
 }
 
 #banner__welcome {

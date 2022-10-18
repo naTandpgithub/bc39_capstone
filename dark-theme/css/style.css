@@ -228,6 +228,16 @@ body {
   background-color: #1ee697;
 }
 
+.card__item2 i {
+  transform: skewX(-10deg);
+}
+
+.card__item1,
+.card__item2,
+.card__item3,
+.card__item4 {
+  padding: 25px !important;
+}
 #banner__welcome {
   /* position: absolute;
   left: 0;
