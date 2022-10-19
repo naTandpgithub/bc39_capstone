@@ -90,8 +90,15 @@
 .logo img {
   margin-right: 10px;
 }
+
 .logo {
-  font-size: 1.5rem !important;
+  text-decoration: none;
+  transition: all 0.5s;
+  font-weight: 600;
+  font-size: 2rem;
+}
+.logo:hover {
+  color: #ff4f81;
 }
 
 .fix_ontop {
@@ -121,7 +128,7 @@
   padding: 10px 0px 10px 10px;
   border-top-left-radius: 30px;
   border-bottom-left-radius: 30px;
-  border-right: hidden;
+  border-right-width: 0;
   border: 1px solid rgba(175, 170, 170, 0.4);
   background: transparent;
 }

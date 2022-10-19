@@ -94,8 +94,15 @@ body {
 .logo img {
   margin-right: 10px;
 }
+
 .logo {
-  font-size: 1.5rem !important;
+  text-decoration: none;
+  transition: all 0.5s;
+  font-weight: 600;
+  font-size: 2rem;
+}
+.logo:hover {
+  color: #ff4f81;
 }
 
 .sticky {
@@ -115,7 +122,7 @@ body {
   padding: 10px 0px 10px 10px;
   border-top-left-radius: 30px;
   border-bottom-left-radius: 30px;
-  border-right-style: hidden !important;
+  border-right-width: 0 !important;
   border: 2px solid white;
   background: transparent;
 }
