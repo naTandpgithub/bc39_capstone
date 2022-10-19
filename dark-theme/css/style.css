@@ -528,6 +528,14 @@ h2::after {
   background-color: #0d369f;
   color: white;
 }
+
+@media only screen and (max-width: 768px) {
+  .product__card img {
+    display: block;
+    width: 100%;
+  }
+}
+
 /* class  */
 #class {
   padding: 100px 0;
