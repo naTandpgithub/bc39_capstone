@@ -63,9 +63,6 @@
   background-color: #0014a9;
 }
 
-
-
-
 /* header  */
 
 .contactbar {
@@ -544,7 +541,7 @@ h2::after {
 
 /* Back to top  */
 .backtotop {
-  opacity: 1;
+  opacity: 0;
 }
 
 .backtotop i {
@@ -556,8 +553,8 @@ h2::after {
   background-color: #0d369f;
   border-radius: 5px;
   position: fixed;
-  right: 10px;
-  bottom: 80px;
+  right: 15px;
+  bottom: 15px;
 }
 .cd-top--is-visible {
   visibility: visible;
@@ -566,7 +563,6 @@ h2::after {
 .cd-top--fade-out {
   opacity: 1;
 }
-
 
 /* number */
 .number__item {
@@ -592,18 +588,15 @@ h2::after {
   .number__item h3 {
     font-size: 35px;
   }
-
 }
 
 /* feedback */
-
 
 .feedback__grid {
   padding: 32px;
   border-radius: 4px;
   box-shadow: 0 20px 62px #0414451a;
 }
-
 
 .feedback__grid p q::before {
   font-size: 50px;
@@ -619,7 +612,7 @@ h2::after {
   font-size: 16px;
   line-height: 28px;
   color: #707070;
-  letter-spacing: .4px;
+  letter-spacing: 0.4px;
 }
 
 .author__img {
@@ -641,7 +634,6 @@ h2::after {
   color: #707070;
 }
 
-
 /* instructor */
 
 .instructor__content .card {
@@ -658,7 +650,6 @@ h2::after {
   transition: all 0.5s;
   text-decoration: none;
 }
-
 
 .instructor__content .card:hover .card-title a {
   color: #ff6e65;
@@ -713,21 +704,21 @@ h2::after {
   font-size: 16px;
   line-height: 28px;
   color: #707070;
-  letter-spacing: .4px;
+  letter-spacing: 0.4px;
 }
 
-@media (max-width: 380px){
-.contact__title h2 {
+@media (max-width: 380px) {
+  .contact__title h2 {
     font-size: 28px;
     line-height: 38px;
-}
+  }
 }
 
-@media (max-width: 560px){
+@media (max-width: 560px) {
   .contact__title h2 {
     font-size: 30px;
     line-height: 40px;
-}
+  }
 }
 /* footer */
 footer {
@@ -739,16 +730,16 @@ footer {
   background-color: #060e1f;
 }
 
-@media (max-width: 736px){
+@media (max-width: 736px) {
   .footer_top {
     padding: 40px 0;
-}
+  }
 }
 
-@media (max-width: 568px){
-.footer_top {
+@media (max-width: 568px) {
+  .footer_top {
     margin-top: 1em;
-}
+  }
 }
 .right-side {
   z-index: 1;
@@ -764,14 +755,13 @@ footer {
   box-shadow: 0px -1px 41px 0px rgb(21 22 23 / 8%);
 }
 
-
 @media (max-width: 991px) {
   .right-side {
     margin: 0 2em;
   }
 }
 
-@media (max-width: 768px){
+@media (max-width: 768px) {
   .right-side {
     margin: 0 1em;
     top: -78px;
@@ -785,20 +775,18 @@ footer {
   font-weight: 600;
 }
 
-@media (max-width: 488px){
-  .form_text h4{
+@media (max-width: 488px) {
+  .form_text h4 {
     font-size: 30px;
   }
 }
-
 
 .form_input {
   display: flex;
 }
 
-
 @media (max-width: 440px) {
-  .right-side{
+  .right-side {
     padding: 40px;
   }
 
@@ -817,7 +805,7 @@ footer {
   width: 100%;
   border-radius: 8px 0px 0px 8px;
   height: 55px;
-  border: 1px solid #eee
+  border: 1px solid #eee;
 }
 
 .form_input button {
@@ -831,36 +819,32 @@ footer {
   border-radius: 0 8px 8px 0;
 }
 
-
 .footer_nav {
   margin-top: 120px;
 
   color: #ffffff;
 }
 
-@media (max-width: 768px){
-.footer_nav{
+@media (max-width: 768px) {
+  .footer_nav {
     margin-top: 150px;
-}
+  }
 }
 
-@media (max-width: 440px){
-  .footer_nav{
+@media (max-width: 440px) {
+  .footer_nav {
     margin-top: 240px;
   }
-  .form_input{
+  .form_input {
     flex-wrap: wrap;
   }
-  .form_input button{
+  .form_input button {
     width: 100%;
     margin-top: 1em;
     padding: 15px 30px;
     border-radius: 4px;
   }
-
 }
-
-
 
 .footer_nav h6 {
   color: #fff;
@@ -896,7 +880,7 @@ footer {
   vertical-align: middle;
   margin-right: 10px;
   width: 25px;
-  text-align: center
+  text-align: center;
 }
 
 .footer_phone {
@@ -915,13 +899,12 @@ footer {
   vertical-align: middle;
   margin-right: 10px;
   width: 25px;
-  text-align: center
+  text-align: center;
 }
 
 .footer_address {
   margin-top: 10px;
 }
-
 
 .footer_address p {
   font-size: 14px;
@@ -935,7 +918,7 @@ footer {
   vertical-align: middle;
   margin-right: 10px;
   width: 25px;
-  text-align: center
+  text-align: center;
 }
 
 .footer_about p {
@@ -950,13 +933,12 @@ footer {
 
 @media screen and (max-width: 991px) {
   .footer_about {
-    border-left: 0px solid #40495282
+    border-left: 0px solid #40495282;
   }
 }
 
 .footer_icons {
   display: flex;
-
 }
 
 .footer_icons li {

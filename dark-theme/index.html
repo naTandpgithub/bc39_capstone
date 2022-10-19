@@ -24,7 +24,10 @@
   <link rel="stylesheet" href="./libary/OwlCarousel2-2.3.4/dist/assets/owl.carousel.min.css">
   <link rel="stylesheet" href="./libary/OwlCarousel2-2.3.4/dist/assets/owl.theme.default.min.css">
   <!-- javascript jquery  -->
-
+<!-- wow animate -->
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
+integrity="sha512-c42qTSw/wPZ3/5LBzD+Bw5f7bSF2oxou6wEb+I/lqeaKV5FDIfMvvRp772y4jcJLKuGUOpbJMdg/BTl50fJYAw=="
+crossorigin="anonymous" referrerpolicy="no-referrer" />
 
 
 
@@ -612,26 +615,26 @@
       <div class="row text-center">
         <div class="col-lg-3 col-sm-6 ">
           <div class="number__item">
-            <h3>6,300</h3>
+            <h3 class="number wow">6,300</h3>
             <p>LEARNERS & COUNTING</p>
           </div>
         </div>
         <div class="col-lg-3 col-sm-6 ">
           <div class="number__item">
-            <h3>638</h3>
+            <h3 class="number wow">638</h3>
             <p>TOTAL COURSES</p>
           </div>
 
         </div>
         <div class="col-lg-3 col-sm-6 ">
           <div class="number__item">
-            <h3>7,600</h3>
+            <h3  class="number wow" >7,600</h3>
             <p>SUCCESSFUL STUDENTS</p>
           </div>
         </div>
         <div class="col-lg-3 col-sm-6">
           <div class="number__item border-right-0">
-            <h3>36</h3>
+            <h3 class="number wow">36</h3>
             <p>LANGUAGES</p>
           </div>
         </div>
@@ -957,40 +960,7 @@
 <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
   integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
 <!-- owl carousel  -->
-<script src="./libary/OwlCarousel2-2.3.4/dist/owl.carousel.min.js"></script>
-<script>
-  $(document).ready(function () {
-    $(".owl-carousel").owlCarousel({
-      loop: true,
-      margin: 0,
-      nav: false,
-      responsiveClass: true,
-      autoplay: true,
-      autoplayTimeout: 5000,
-      autoplaySpeed: 1000,
-      autoplayHoverPause: false,
-      responsive: {
-        0: {
-          items: 1,
-          nav: false
-        },
-        480: {
-          items: 1,
-          nav: false
-        },
-        667: {
-          items: 1,
-          nav: false
-        },
-        1000: {
-          items: 1,
-          nav: false
-        }
-      }
-    })
-  })
-
-</script>
+<!-- fix on top  -->
 <script>
   var navbarfix = document.getElementById("navbarfix");
   var menutab = document.getElementById("menufix");
@@ -1013,6 +983,22 @@
 <!-- back to top  -->
 <script src="./libary/backtotop/util.js"> </script>
 <script src="./libary/backtotop/main.js"> </script>
+
+<!-- cout up  -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/waypoints/4.0.1/jquery.waypoints.min.js"
+  integrity="sha512-CEiA+78TpP9KAIPzqBvxUv8hy41jyI3f2uHi7DGp/Y/Ka973qgSdybNegWFciqh6GrN2UePx2KkflnQUbUhNIA=="
+  crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+<script src="./../libary/countupjs/jquery.countup.js"></script>
+<script>
+  $(".number").countUp();
+</script>
+<!-- wow  -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/wow/1.1.2/wow.min.js"
+  integrity="sha512-Eak/29OTpb36LLo2r47IpVzPBLXnAMPAVypbSZiZ4Qkf8p/7S/XRG5xp7OKWPPYfJT6metI+IORkR5G8F900+g=="
+  crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+<script>
+  new WOW().init();
+</script>
 
 
 
